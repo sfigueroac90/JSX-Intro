@@ -4,7 +4,13 @@ import ReactDOM from "react-dom";
 //var React = require("react"); // OLD STYLE
 //var ReactDOM = require("react-dom"); // OLD STYLE
 
-ReactDOM.render(<h1>Hello World</h1>, document.getElementById("root"));
+ReactDOM.render(
+  <div>
+    <h1>Hello World!</h1>
+    <p>This is a paragraph.</p>
+  </div>,
+  document.getElementById("root")
+);
 
 /* OLD STYLE */
 //Do not use. Just to compare
